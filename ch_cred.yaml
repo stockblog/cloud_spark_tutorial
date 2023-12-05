@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: ch-secret
+stringData:
+  ch_user: REPLACE_WITH_YOUR_CH_USER
+  ch_password: REPLACE_WITH_YOUR_CH_PASSWORD
