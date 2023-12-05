@@ -69,8 +69,8 @@ correct_emails.write.format("jdbc") \
 .option("url", url) \
 .option("dbtable", clickhouse_table) \
 .option("createTableOptions", "ENGINE = MergeTree() ORDER BY email") \
-.option("user","user") \
-.option("password","o1F2KhM670J-q41d9") \
+.option("user","REPLACE_WITH_YOUR_CH_USER") \
+.option("password","REPLACE_WITH_YOUR_CH_PASSWORD") \
 .save()
 
 print("Запись в ClickHouse прошла успешно")
