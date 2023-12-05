@@ -1,6 +1,6 @@
 # cloud_spark_tutorial
 
-Данный репозиторий предназначен для обучения работе с Cloud Spark от VK Cloud.  
+Данный репозиторий предназначен для обучения работе с Cloud Spark от [VK Cloud](https://cloud.vk.com/).  
 Cloud Spark — решение на базе Apache Spark Operator и PaaS Kubernetes от VK Cloud. 
 Оно позволяет развернуть Spark внутри Kubernetes для работы с S3, ClickHouse, GreenPlum в облаке.  
   
